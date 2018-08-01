@@ -6,7 +6,7 @@ company, based on a supplied tax code list.
 Writing the files requires a folder named "taxfiles" to be
 created prior to running this script.
 """
-from client import AvataxClient
+from avatax.client import AvataxClient
 from tax_code_list import sample_codes as tax_codes
 import os
 import sys

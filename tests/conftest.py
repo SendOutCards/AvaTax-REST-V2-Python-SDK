@@ -1,6 +1,6 @@
 """Conftest is a file recognize by pytest module, allowing us to share fixture across multiple tests."""
-from client import AvataxClient
-from transaction_builder import TransactionBuilder
+from avatax.client import AvataxClient
+from avatax.transaction_builder import TransactionBuilder
 import os
 import pytest
 

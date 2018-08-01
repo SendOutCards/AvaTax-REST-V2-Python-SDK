@@ -41,7 +41,7 @@ AvaTax-REST-V2-Python-SDK $ source ENV/bin/activate
 First thing to do is to import the AvataxClient constructor module to your name space, or your python script.
 
 ```
-from client import AvataxClient
+from avatax.client import AvataxClient
 ```
 
 **Now we are ready to construct a client object**

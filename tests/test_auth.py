@@ -1,7 +1,7 @@
 """Test the add_credential method."""
 import pytest
 from requests.auth import HTTPBasicAuth
-from client import AvataxClient
+from avatax.client import AvataxClient
 
 
 def test_username_auth(unauth_client):
